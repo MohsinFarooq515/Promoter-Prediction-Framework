@@ -1,0 +1,741 @@
+>Cluster 0
+0	81nt, >abnA... *
+>Cluster 1
+0	81nt, >abrB... *
+>Cluster 2
+0	81nt, >abrB... *
+>Cluster 3
+0	81nt, >ackA... *
+>Cluster 4
+0	81nt, >acsA... *
+>Cluster 5
+0	81nt, >acuA... *
+>Cluster 6
+0	81nt, >adaA... *
+>Cluster 7
+0	81nt, >addB... *
+>Cluster 8
+0	81nt, >ahpC... *
+>Cluster 9
+0	81nt, >ald... *
+>Cluster 10
+0	81nt, >alkA... *
+>Cluster 11
+0	81nt, >alsS... *
+>Cluster 12
+0	81nt, >amhX... *
+>Cluster 13
+0	81nt, >amyE... *
+>Cluster 14
+0	81nt, >ansA... *
+>Cluster 15
+0	81nt, >antE... *
+>Cluster 16
+0	81nt, >aprE... *
+>Cluster 17
+0	81nt, >aprX... *
+>Cluster 18
+0	81nt, >araA... *
+>Cluster 19
+0	81nt, >araE... *
+>Cluster 20
+0	81nt, >araR... *
+>Cluster 21
+0	81nt, >arfM... *
+>Cluster 22
+0	81nt, >argC... *
+>Cluster 23
+0	81nt, >arsR... *
+>Cluster 24
+0	81nt, >asd... *
+>Cluster 25
+0	81nt, >bglC... *
+>Cluster 26
+0	81nt, >bglP... *
+>Cluster 27
+0	81nt, >bglS... *
+>Cluster 28
+0	81nt, >blt... *
+>Cluster 29
+0	81nt, >bmr... *
+>Cluster 30
+0	81nt, >bsrB... *
+>Cluster 31
+0	81nt, >ccdA... *
+>Cluster 32
+0	81nt, >ccpC... *
+>Cluster 33
+0	81nt, >cdd... *
+>Cluster 34
+0	81nt, >cggR... *
+>Cluster 35
+0	81nt, >citA... *
+>Cluster 36
+0	81nt, >citB... *
+>Cluster 37
+0	81nt, >citG... *
+>Cluster 38
+0	81nt, >citG... *
+>Cluster 39
+0	81nt, >citM... *
+>Cluster 40
+0	81nt, >citR... *
+>Cluster 41
+0	81nt, >citZ... *
+>Cluster 42
+0	81nt, >clpE... *
+>Cluster 43
+0	81nt, >clpE... *
+>Cluster 44
+0	81nt, >clpP... *
+>Cluster 45
+0	81nt, >clpX... *
+>Cluster 46
+0	81nt, >codV... *
+>Cluster 47
+0	81nt, >comA... *
+>Cluster 48
+0	81nt, >comC... *
+>Cluster 49
+0	81nt, >comEA... *
+>Cluster 50
+0	81nt, >comFA... *
+>Cluster 51
+0	81nt, >comGA... *
+>Cluster 52
+0	81nt, >comK... *
+>Cluster 53
+0	81nt, >comQ... *
+>Cluster 54
+0	81nt, >csbA... *
+>Cluster 55
+0	81nt, >cspB... *
+>Cluster 56
+0	81nt, >cssR... *
+>Cluster 57
+0	81nt, >cssR... *
+>Cluster 58
+0	81nt, >ctaA... *
+>Cluster 59
+0	81nt, >ctsR... *
+>Cluster 60
+0	81nt, >cydA... *
+>Cluster 61
+0	81nt, >cysH... *
+>Cluster 62
+0	81nt, >cysK... *
+>Cluster 63
+0	81nt, >dctP... *
+>Cluster 64
+0	81nt, >degU... *
+>Cluster 65
+0	81nt, >degU... *
+>Cluster 66
+0	81nt, >degQ... *
+>Cluster 67
+0	81nt, >degS... *
+>Cluster 68
+0	81nt, >des... *
+>Cluster 69
+0	81nt, >dhbA... *
+>Cluster 70
+0	81nt, >divIB... *
+>Cluster 71
+0	81nt, >dnaA... *
+>Cluster 72
+0	81nt, >dppA... *
+>Cluster 73
+0	81nt, >dra... *
+>Cluster 74
+0	81nt, >drm... *
+>Cluster 75
+0	81nt, >drm... *
+>Cluster 76
+0	81nt, >fabHA... *
+>Cluster 77
+0	81nt, >fabL... *
+>Cluster 78
+0	81nt, >fabL... *
+>Cluster 79
+0	81nt, >ylpC... *
+>Cluster 80
+0	81nt, >fbp... *
+>Cluster 81
+0	81nt, >feuA... *
+1	81nt, >feuA... at +/96.30%
+>Cluster 82
+0	81nt, >flgB... *
+>Cluster 83
+0	81nt, >ftsA... *
+>Cluster 84
+0	81nt, >ftsA... *
+>Cluster 85
+0	81nt, >ftsH... *
+>Cluster 86
+0	81nt, >fur... *
+>Cluster 87
+0	81nt, >gapB... *
+>Cluster 88
+0	81nt, >gabP... *
+>Cluster 89
+0	81nt, >gabP... *
+>Cluster 90
+0	81nt, >gabR... *
+>Cluster 91
+0	81nt, >gabT... *
+>Cluster 92
+0	81nt, >galE... *
+>Cluster 93
+0	81nt, >gcaD... *
+>Cluster 94
+0	81nt, >ggaA... *
+>Cluster 95
+0	81nt, >glnR... *
+>Cluster 96
+0	81nt, >glpD... *
+>Cluster 97
+0	81nt, >glpF... *
+>Cluster 98
+0	81nt, >glpQ... *
+>Cluster 99
+0	81nt, >glpT... *
+>Cluster 100
+0	81nt, >ybgJ... *
+>Cluster 101
+0	81nt, >gltA... *
+>Cluster 102
+0	81nt, >gltR... *
+>Cluster 103
+0	81nt, >gltC... *
+>Cluster 104
+0	81nt, >gltX... *
+>Cluster 105
+0	81nt, >glyA... *
+>Cluster 106
+0	81nt, >gntR... *
+>Cluster 107
+0	81nt, >gntZ... *
+>Cluster 108
+0	81nt, >groES... *
+>Cluster 109
+0	81nt, >gtaB... *
+>Cluster 110
+0	81nt, >guaA... *
+>Cluster 111
+0	81nt, >guaD... *
+>Cluster 112
+0	81nt, >gudB... *
+>Cluster 113
+0	81nt, >gutB... *
+>Cluster 114
+0	81nt, >gyrA... *
+>Cluster 115
+0	81nt, >hbs... *
+>Cluster 116
+0	81nt, >hbs... *
+>Cluster 117
+0	81nt, >hemZ... *
+>Cluster 118
+0	81nt, >hrcA... *
+>Cluster 119
+0	81nt, >htpG... *
+>Cluster 120
+0	81nt, >htrA... *
+>Cluster 121
+0	81nt, >hutP... *
+>Cluster 122
+0	81nt, >icd... *
+>Cluster 123
+0	81nt, >ilvB... *
+>Cluster 124
+0	81nt, >infC... *
+>Cluster 125
+0	81nt, >iolR... *
+>Cluster 126
+0	81nt, >ispA... *
+>Cluster 127
+0	81nt, >ydjK... *
+>Cluster 128
+0	81nt, >kdgR... *
+>Cluster 129
+0	81nt, >kinB... *
+>Cluster 130
+0	81nt, >kinC... *
+>Cluster 131
+0	81nt, >ldh... *
+>Cluster 132
+0	81nt, >lepA... *
+>Cluster 133
+0	81nt, >licB... *
+>Cluster 134
+0	81nt, >licR... *
+>Cluster 135
+0	81nt, >lmrA... *
+>Cluster 136
+0	81nt, >lonA... *
+>Cluster 137
+0	81nt, >lonA... *
+>Cluster 138
+0	81nt, >lrpC... *
+>Cluster 139
+0	81nt, >lysC... *
+>Cluster 140
+0	81nt, >lytA... *
+>Cluster 141
+0	81nt, >lytR... *
+>Cluster 142
+0	81nt, >maeN... *
+>Cluster 143
+0	81nt, >malA... *
+>Cluster 144
+0	81nt, >mecA... *
+>Cluster 145
+0	81nt, >med... *
+1	81nt, >med... at +/92.59%
+>Cluster 146
+0	81nt, >menB... *
+>Cluster 147
+0	81nt, >menE... *
+>Cluster 148
+0	81nt, >menF... *
+>Cluster 149
+0	81nt, >mmsA... *
+>Cluster 150
+0	81nt, >mrgA... *
+>Cluster 151
+0	81nt, >mta... *
+>Cluster 152
+0	81nt, >nadB... *
+1	81nt, >nifS... at -/91.36%
+>Cluster 153
+0	81nt, >nadE... *
+>Cluster 154
+0	81nt, >narG... *
+>Cluster 155
+0	81nt, >nasA... *
+>Cluster 156
+0	81nt, >nasB... *
+>Cluster 157
+0	81nt, >nfrA... *
+>Cluster 158
+0	81nt, >nrgA... *
+>Cluster 159
+0	81nt, >nusA... *
+>Cluster 160
+0	81nt, >odhA... *
+>Cluster 161
+0	81nt, >ogt... *
+>Cluster 162
+0	81nt, >opuAA... *
+>Cluster 163
+0	81nt, >opuAA... *
+>Cluster 164
+0	81nt, >opuBA... *
+>Cluster 165
+0	81nt, >opuE... *
+>Cluster 166
+0	81nt, >pabB... *
+>Cluster 167
+0	81nt, >pckA... *
+>Cluster 168
+0	81nt, >pbpD... *
+>Cluster 169
+0	81nt, >pbpF... *
+>Cluster 170
+0	81nt, >pdhA... *
+>Cluster 171
+0	81nt, >pdhC... *
+>Cluster 172
+0	81nt, >perR... *
+>Cluster 173
+0	81nt, >pgk... *
+>Cluster 174
+0	81nt, >pheS... *
+>Cluster 175
+0	81nt, >phoA... *
+>Cluster 176
+0	81nt, >phoB... *
+>Cluster 177
+0	81nt, >phoP... *
+>Cluster 178
+0	81nt, >phoP... *
+>Cluster 179
+0	81nt, >phoP... *
+>Cluster 180
+0	81nt, >phrE... *
+>Cluster 181
+0	81nt, >phrI... *
+>Cluster 182
+0	81nt, >pmi... *
+>Cluster 183
+0	81nt, >ppiB... *
+>Cluster 184
+0	81nt, >pstS... *
+>Cluster 185
+0	81nt, >pta... *
+>Cluster 186
+0	81nt, >ptsG... *
+>Cluster 187
+0	81nt, >ptsH... *
+>Cluster 188
+0	81nt, >pucA... *
+>Cluster 189
+0	81nt, >yurH... *
+>Cluster 190
+0	81nt, >pucH... *
+>Cluster 191
+0	81nt, >ywoE... *
+>Cluster 192
+0	81nt, >pucJ... *
+>Cluster 193
+0	81nt, >purA... *
+>Cluster 194
+0	81nt, >purE... *
+>Cluster 195
+0	81nt, >purT... *
+>Cluster 196
+0	81nt, >pyrR... *
+>Cluster 197
+0	81nt, >qcrA... *
+>Cluster 198
+0	81nt, >rapA... *
+>Cluster 199
+0	81nt, >rapC... *
+>Cluster 200
+0	81nt, >rapD... *
+>Cluster 201
+0	81nt, >rapG... *
+>Cluster 202
+0	81nt, >rapH... *
+>Cluster 203
+0	81nt, >rbsR... *
+>Cluster 204
+0	81nt, >recA... *
+>Cluster 205
+0	81nt, >resA... *
+>Cluster 206
+0	81nt, >resD... *
+>Cluster 207
+0	81nt, >rpmH... *
+>Cluster 208
+0	81nt, >rpmH... *
+>Cluster 209
+0	81nt, >rocR... *
+>Cluster 210
+0	81nt, >rpoB... *
+>Cluster 211
+0	81nt, >rpoE... *
+>Cluster 212
+0	81nt, >rpsD... *
+>Cluster 213
+0	81nt, >rrnA-16S... *
+>Cluster 214
+0	81nt, >rrnA-16S... *
+>Cluster 215
+0	81nt, >rrnB-16S... *
+>Cluster 216
+0	81nt, >rrnB-16S... *
+>Cluster 217
+0	81nt, >rrnO-16S... *
+>Cluster 218
+0	81nt, >rrnO-16S... *
+>Cluster 219
+0	81nt, >rsbR... *
+>Cluster 220
+0	81nt, >sacB... *
+>Cluster 221
+0	81nt, >sacP... *
+>Cluster 222
+0	81nt, >sacX... *
+>Cluster 223
+0	81nt, >sboA... *
+>Cluster 224
+0	81nt, >scr... *
+>Cluster 225
+0	81nt, >sda... *
+>Cluster 226
+0	81nt, >sdhC... *
+>Cluster 227
+0	81nt, >yvbA... *
+>Cluster 228
+0	81nt, >secA... *
+>Cluster 229
+0	81nt, >sigD... *
+>Cluster 230
+0	81nt, >sigH... *
+>Cluster 231
+0	81nt, >sigM... *
+>Cluster 232
+0	81nt, >sigX... *
+>Cluster 233
+0	81nt, >sinI... *
+>Cluster 234
+0	81nt, >sinI... *
+>Cluster 235
+0	81nt, >sinR... *
+>Cluster 236
+0	81nt, >speD... *
+>Cluster 237
+0	81nt, >spo0A... *
+1	81nt, >spo0A... at +/92.59%
+>Cluster 238
+0	81nt, >spo0B... *
+>Cluster 239
+0	81nt, >spo0E... *
+>Cluster 240
+0	81nt, >spo0F... *
+>Cluster 241
+0	81nt, >spoIIE... *
+>Cluster 242
+0	81nt, >spoIIGA... *
+>Cluster 243
+0	81nt, >spoIIIE... *
+>Cluster 244
+0	81nt, >srfAA... *
+>Cluster 245
+0	81nt, >tagA... *
+>Cluster 246
+0	81nt, >tagD... *
+>Cluster 247
+0	81nt, >tetL... *
+>Cluster 248
+0	81nt, >thrS... *
+>Cluster 249
+0	81nt, >treP... *
+>Cluster 250
+0	81nt, >trnD-Asn... *
+>Cluster 251
+0	81nt, >trnD-Leu2... *
+>Cluster 252
+0	81nt, >trpE... *
+>Cluster 253
+0	81nt, >trxA... *
+>Cluster 254
+0	81nt, >tyrS... *
+>Cluster 255
+0	81nt, >ureA... *
+>Cluster 256
+0	81nt, >valS... *
+>Cluster 257
+0	81nt, >veg... *
+>Cluster 258
+0	81nt, >wapA... *
+>Cluster 259
+0	81nt, >xpt... *
+>Cluster 260
+0	81nt, >xsa... *
+>Cluster 261
+0	81nt, >xylA... *
+>Cluster 262
+0	81nt, >xynA... *
+>Cluster 263
+0	81nt, >xynP... *
+>Cluster 264
+0	81nt, >yaaA... *
+>Cluster 265
+0	81nt, >yaaB... *
+>Cluster 266
+0	81nt, >ybcO... *
+>Cluster 267
+0	81nt, >yccC... *
+>Cluster 268
+0	81nt, >ycdH... *
+>Cluster 269
+0	81nt, >yceC... *
+>Cluster 270
+0	81nt, >yciA... *
+>Cluster 271
+0	81nt, >yciC... *
+>Cluster 272
+0	81nt, >yczA... *
+>Cluster 273
+0	81nt, >ydfK... *
+>Cluster 274
+0	81nt, >yfkJ... *
+>Cluster 275
+0	81nt, >yfmP... *
+>Cluster 276
+0	81nt, >yhaG... *
+>Cluster 277
+0	81nt, >yhfL... *
+>Cluster 278
+0	81nt, >yjcI... *
+>Cluster 279
+0	81nt, >uxaC... *
+>Cluster 280
+0	81nt, >yklA... *
+>Cluster 281
+0	81nt, >ykoL... *
+>Cluster 282
+0	81nt, >ykuF... *
+>Cluster 283
+0	81nt, >ykuN... *
+>Cluster 284
+0	81nt, >ykvW... *
+>Cluster 285
+0	81nt, >ylaC... *
+>Cluster 286
+0	81nt, >ylxM... *
+>Cluster 287
+0	81nt, >ymaA... *
+>Cluster 288
+0	81nt, >yneI... *
+>Cluster 289
+0	81nt, >yneJ... *
+>Cluster 290
+0	81nt, >yocH... *
+>Cluster 291
+0	81nt, >ypuE... *
+>Cluster 292
+0	81nt, >yqdB... *
+>Cluster 293
+0	81nt, >yqxD... *
+>Cluster 294
+0	81nt, >yqxD... *
+>Cluster 295
+0	81nt, >ysiA... *
+>Cluster 296
+0	81nt, >ytkD... *
+>Cluster 297
+0	81nt, >ytrA... *
+>Cluster 298
+0	81nt, >yusL... *
+>Cluster 299
+0	81nt, >yuxH... *
+>Cluster 300
+0	81nt, >yveK... *
+>Cluster 301
+0	81nt, >yvgR... *
+>Cluster 302
+0	81nt, >ywbI... *
+>Cluster 303
+0	81nt, >ywcJ... *
+>Cluster 304
+0	81nt, >ywfK... *
+>Cluster 305
+0	81nt, >ywjF... *
+>Cluster 306
+0	81nt, >pyrG... *
+>Cluster 307
+0	81nt, >yqxM... *
+>Cluster 308
+0	81nt, >ezrA... *
+>Cluster 309
+0	81nt, >ezrA... *
+>Cluster 310
+0	81nt, >yxaA... *
+>Cluster 311
+0	81nt, >yxeK... *
+>Cluster 312
+0	81nt, >yrrT... *
+>Cluster 313
+0	81nt, >yhcL... *
+>Cluster 314
+0	81nt, >ssuB... *
+>Cluster 315
+0	81nt, >cymR... *
+>Cluster 316
+0	81nt, >yjbD... *
+>Cluster 317
+0	81nt, >ntdA... *
+>Cluster 318
+0	81nt, >yvqI... *
+>Cluster 319
+0	81nt, >yhcY... *
+>Cluster 320
+0	81nt, >liaG... *
+>Cluster 321
+0	81nt, >yydF... *
+>Cluster 322
+0	81nt, >yvaB... *
+>Cluster 323
+0	81nt, >yodE... *
+>Cluster 324
+0	81nt, >mhqA... *
+>Cluster 325
+0	81nt, >ydfN... *
+>Cluster 326
+0	81nt, >lytE... *
+>Cluster 327
+0	81nt, >fnr... *
+>Cluster 328
+0	81nt, >hmp... *
+>Cluster 329
+0	81nt, >narK... *
+>Cluster 330
+0	81nt, >phoD... *
+>Cluster 331
+0	81nt, >sipS... *
+>Cluster 332
+0	81nt, >spoIIIJ... *
+>Cluster 333
+0	81nt, >tuaA... *
+>Cluster 334
+0	81nt, >ywkA... *
+>Cluster 335
+0	81nt, >ykrU... *
+>Cluster 336
+0	81nt, >ykrV... *
+>Cluster 337
+0	81nt, >ykrT... *
+>Cluster 338
+0	81nt, >ykrW... *
+>Cluster 339
+0	81nt, >ykrW... *
+>Cluster 340
+0	81nt, >ytmI... *
+>Cluster 341
+0	81nt, >ytlI... *
+1	81nt, >ytlI... at +/96.30%
+>Cluster 342
+0	81nt, >speE... *
+>Cluster 343
+0	81nt, >yflG... *
+>Cluster 344
+0	81nt, >ydfJ... *
+>Cluster 345
+0	81nt, >bceA... *
+>Cluster 346
+0	81nt, >gmuB... *
+>Cluster 347
+0	81nt, >yrkO... *
+>Cluster 348
+0	81nt, >yrkP... *
+>Cluster 349
+0	81nt, >yclI... *
+>Cluster 350
+0	81nt, >ykcB... *
+>Cluster 351
+0	81nt, >yngA... *
+>Cluster 352
+0	81nt, >ywsC... *
+>Cluster 353
+0	81nt, >thyB... *
+>Cluster 354
+0	81nt, >ywfB... *
+>Cluster 355
+0	81nt, >yhdG... *
+>Cluster 356
+0	81nt, >hpr... *
+>Cluster 357
+0	81nt, >yvcE... *
+>Cluster 358
+0	81nt, >ydjM... *
+>Cluster 359
+0	81nt, >yoeB... *
+>Cluster 360
+0	81nt, >yjeA... *
+>Cluster 361
+0	81nt, >ycdA... *
+>Cluster 362
+0	81nt, >bpr... *
+>Cluster 363
+0	81nt, >natA... *
+>Cluster 364
+0	81nt, >yfiD... *
+>Cluster 365
+0	81nt, >yetM... *
+>Cluster 366
+0	81nt, >yetL... *
+>Cluster 367
+0	81nt, >yraB... *
