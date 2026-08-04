@@ -1,0 +1,79 @@
+[
+  {
+    "epoch": 0,
+    "train_loss": 0.5718506352846012,
+    "validation_mcc": 0.5515039841956195,
+    "validation_pr_auc": 0.8200472165079459,
+    "threshold": 0.23737692832946777
+  },
+  {
+    "epoch": 1,
+    "train_loss": 0.44391772150993347,
+    "validation_mcc": 0.6007020065591013,
+    "validation_pr_auc": 0.8360670557231947,
+    "threshold": 0.34215351939201355
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.4132391079220661,
+    "validation_mcc": 0.6540233270549961,
+    "validation_pr_auc": 0.8752140429260347,
+    "threshold": 0.7081390023231506
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.3446313752684482,
+    "validation_mcc": 0.5925409272473166,
+    "validation_pr_auc": 0.8508444519865246,
+    "threshold": 0.1769636571407318
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.2868189113431199,
+    "validation_mcc": 0.643678888018639,
+    "validation_pr_auc": 0.8687728983550576,
+    "threshold": 0.8959174752235413
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.27612085796372837,
+    "validation_mcc": 0.5922715795058793,
+    "validation_pr_auc": 0.8534807328763504,
+    "threshold": 0.37680917978286743
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.23300907834497994,
+    "validation_mcc": 0.6208220467045821,
+    "validation_pr_auc": 0.8748794448052717,
+    "threshold": 0.3524211347103119
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.20608270523506542,
+    "validation_mcc": 0.6430568822019893,
+    "validation_pr_auc": 0.8776260867090507,
+    "threshold": 0.45595574378967285
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.17997790933694952,
+    "validation_mcc": 0.5983497513512146,
+    "validation_pr_auc": 0.8638154092009247,
+    "threshold": 0.8425680994987488
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.15451455727046312,
+    "validation_mcc": 0.6359134662874,
+    "validation_pr_auc": 0.8782886048472656,
+    "threshold": 0.731295645236969
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.13879240616116412,
+    "validation_mcc": 0.6279570657867447,
+    "validation_pr_auc": 0.8730745989229272,
+    "threshold": 0.4488407373428345
+  }
+]

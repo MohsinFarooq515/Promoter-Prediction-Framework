@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+results/checkpoints/
+results/logs/
+results/predictions/
+results/final_models/
+data/splits/
