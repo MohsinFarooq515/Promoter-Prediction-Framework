@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Promoter and non-promoter DNA sequence prediction across bacterial, archaeal, animal, and plant models.">
+  <title>BayesSigma | Promoter Predictor</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="/static/notices.css">
+  <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" charset="utf-8" defer></script>
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <span class="eyebrow">DOMAIN-AWARE DNA CLASSIFICATION</span>
+      <h1>Promoter Sequence Predictor</h1>
+      <p>Classify one DNA sequence or screen a FASTA file using trained organism-specific models spanning Bacteria, Archaea, and Eukaryota.</p>
+    </header>
+
+    <section class="card input-card" aria-labelledby="predict-heading">
+      <div class="section-heading">
+        <div><span class="step">01</span><h2 id="predict-heading">Choose a model and input</h2></div>
+        <span id="service-status" class="status">Checking models…</span>
+      </div>
+      <div class="domain-row">
+        <label for="domain">Organism model</label>
+        <select id="domain">
+          <option value="ecoli">E. coli</option><option value="bsubtilis">B. subtilis</option>
+          <option value="archaea">Archaea (combined)</option><option value="human">Human</option>
+          <option value="mouse">Mouse</option><option value="arabidopsis">Arabidopsis</option>
+        </select>
+        <span id="model-meta" class="model-meta">Loading model details…</span>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Input method">
+        <button id="single-tab" class="tab active" data-tab="single" type="button" role="tab" aria-selected="true" aria-controls="single-form">Single sequence</button>
+        <button id="fasta-tab" class="tab" data-tab="fasta" type="button" role="tab" aria-selected="false" aria-controls="fasta-form">FASTA file</button>
+      </div>
+      <form id="single-form" class="panel" aria-labelledby="single-tab">
+        <label for="sequence">DNA sequence</label>
+        <textarea id="sequence" rows="7" placeholder="Paste A, C, G, T, or N bases here…" spellcheck="false" required></textarea>
+        <div class="field-note"><span>Whitespace and line wrapping are ignored.</span><span id="sequence-length">0 nt</span></div>
+        <button class="primary" type="submit">Predict sequence</button>
+      </form>
+      <form id="fasta-form" class="panel hidden" aria-labelledby="fasta-tab">
+        <label for="fasta-file">FASTA file</label>
+        <label class="dropzone" for="fasta-file"><span class="upload-icon" aria-hidden="true">↑</span><strong id="file-name">Choose a FASTA file</strong><span>.fasta, .fa, .fna, or text · up to 10 MB</span></label>
+        <input id="fasta-file" type="file" accept=".fasta,.fa,.fna,.fas,text/plain" required>
+        <button class="primary" type="submit">Predict FASTA file</button>
+      </form>
+      <div id="error" class="error hidden" role="alert"></div>
+    </section>
+
+    <section id="results" class="results hidden" aria-live="polite" aria-labelledby="result-title">
+      <div class="card summary-card">
+        <div class="summary-copy"><span class="eyebrow">PREDICTION SUMMARY</span><h2 id="result-title">Predictions</h2><p id="result-meta"></p><p id="result-notice" class="notice hidden"></p>
+          <div class="totals"><div><span class="dot promoter"></span><strong id="promoter-count">0</strong><small>Promoter</small></div><div><span class="dot non-promoter"></span><strong id="non-promoter-count">0</strong><small>Not Promoter</small></div></div>
+        </div>
+        <div id="pie-chart" class="plotly-chart" aria-label="Pie chart of promoter and not-promoter predictions"></div>
+      </div>
+      <div class="card table-card">
+        <div class="table-heading"><div><span class="step">02</span><h2>Sequence results</h2></div><button id="download" class="secondary" type="button">Download CSV</button></div>
+        <div class="table-scroll"><table><thead><tr><th>Sequence ID</th><th>Length</th><th>Classification</th><th>Promoter probability</th></tr></thead><tbody id="result-rows"></tbody></table></div>
+      </div>
+    </section>
+
+    <section class="info-grid" aria-label="Citation and useful resources">
+      <article class="card info-card"><h2>Citation</h2><p>If you use this web server in your research, please cite the associated publication.</p><div class="citation"><strong>BayesSigma Research Team.</strong> Domain-aware promoter prediction using leakage-controlled hybrid machine learning. <em>Publication details pending.</em></div></article>
+      <article class="card info-card"><h2>Useful Resources</h2><div class="resource-grid">
+        <a href="https://www.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer">NCBI</a><a href="https://www.ensembl.org/" target="_blank" rel="noopener noreferrer">Ensembl</a>
+        <a href="https://epd.expasy.org/epd/" target="_blank" rel="noopener noreferrer">EPDnew</a><a href="https://jaspar.elixir.no/" target="_blank" rel="noopener noreferrer">JASPAR</a>
+      </div></article>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner">
+    <div class="footer-brand"><strong>BayesSigma</strong><span>Computational Biology Research Web Server</span></div>
+    <div class="footer-details"><span>Developer: <strong>Muhammad Mohsin</strong> · Independent Computational Biology Research Project</span><span>Supervisor: <strong>Dr. Shujaat</strong> · <a href="mailto:shujaat@szul.edu.cn">shujaat@szul.edu.cn</a></span><span><a href="mailto:mmohsinfarooqhussain@gmail.com">mmohsinfarooqhussain@gmail.com</a> · <a href="https://github.com/MOHSIN184/-Generalized-Eukaryotic-Promoter-Prediction" target="_blank" rel="noopener noreferrer">GitHub</a> · Version 2.2.2</span><span>© 2026 BayesSigma. All rights reserved.</span></div>
+  </div></footer>
+</body>
+</html>

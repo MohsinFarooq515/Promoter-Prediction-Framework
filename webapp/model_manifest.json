@@ -1,0 +1,8 @@
+{
+  "ecoli": {"model": "multiscale_cnn", "run": "screening", "seeds": [2025, 2026, 2027], "threshold": 0.6570663650830587},
+  "bsubtilis": {"model": "multiscale_cnn", "run": "screening", "seeds": [2025, 2026, 2027], "threshold": 0.6384535431861877},
+  "archaea": {"model": "multiscale_cnn", "run": "screening", "seeds": [2025, 2026, 2027], "threshold": 0.5065970321496328},
+  "human": {"model": "residual_cnn", "run": "eukaryota_multiscale", "seeds": [2025, 2026, 2027], "threshold": 0.33428822457790375},
+  "mouse": {"model": "residual_cnn", "run": "eukaryota_multiscale", "seeds": [2025, 2026, 2027], "threshold": 0.5608963469664255},
+  "arabidopsis": {"model": "residual_cnn", "run": "eukaryota_multiscale", "seeds": [2025, 2026, 2027], "threshold": 0.32508088151613873}
+}

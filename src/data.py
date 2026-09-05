@@ -5,6 +5,7 @@ from collections import Counter, defaultdict
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from statistics import fmean, median, pstdev
+from .groups import model_group_for
 
 FASTA_EXTENSIONS = {".fasta", ".fa", ".fna", ".fas"}
 COMPLEMENT = str.maketrans("ACGTN", "TGCAN")
@@ -110,11 +111,11 @@ def assign_splits(records, seed=2025, fractions=(.70,.15,.15)):
 
 def write_manifest(records,path):
     path=Path(path); path.parent.mkdir(parents=True,exist_ok=True)
-    fields=["internal_id","original_header","source_file","domain","organism","class","original_length","model_input_length","group_id","partition"]
+    fields=["internal_id","original_header","source_file","domain","organism","model_group","class","original_length","model_input_length","group_id","partition"]
     with path.open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
         for r in records:
-            d=asdict(r); d["class"]="promoter" if r.label else "non-promoter"; w.writerow({k:d[k] for k in fields})
+            d=asdict(r); d["model_group"]=model_group_for(r.organism); d["class"]="promoter" if r.label else "non-promoter"; w.writerow({k:d[k] for k in fields})
 
 def one_hot(sequence,max_length):
     import torch

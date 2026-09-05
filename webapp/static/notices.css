@@ -1,0 +1,9 @@
+.notice {
+  display: inline-block;
+  margin: 7px 0 0;
+  padding: 10px 13px;
+  border-radius: 9px;
+  color: #725600;
+  background: #fff4c9;
+  font-weight: 600;
+}
