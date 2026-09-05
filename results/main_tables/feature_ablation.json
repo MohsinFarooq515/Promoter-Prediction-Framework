@@ -1,0 +1,464 @@
+{
+  "ecoli": {
+    "model_group": "ecoli",
+    "domain": "bacteria",
+    "organism": "Escherichia coli",
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "legacy_kmers"
+    ],
+    "validation": {
+      "feature_count": 383,
+      "threshold": 0.5601534006064454,
+      "mcc": 0.6339392418990898,
+      "accuracy": 0.8144016227180527,
+      "pr_auc": 0.8746762158051693,
+      "roc_auc": 0.8807311500380807
+    },
+    "stages": [
+      {
+        "stage": "baseline_legacy_1_4mers_without_n_ratio",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": null,
+        "feature_count": 383,
+        "threshold": 0.5601534006064454,
+        "mcc": 0.6339392418990898,
+        "accuracy": 0.8144016227180527,
+        "pr_auc": 0.8746762158051693,
+        "roc_auc": 0.8807311500380807
+      },
+      {
+        "stage": "canonical_kmers",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.029445675262730342,
+        "feature_count": 2815,
+        "threshold": 0.5346353548101319,
+        "mcc": 0.6044935666363594,
+        "accuracy": 0.8002028397565923,
+        "pr_auc": 0.8697887938999984,
+        "roc_auc": 0.8651736275498653
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "legacy_kmers",
+          "position_specific"
+        ],
+        "accepted": false,
+        "delta_mcc": 0.0013306705577006417,
+        "feature_count": 471,
+        "threshold": 0.5936031938529976,
+        "mcc": 0.6352699124567904,
+        "accuracy": 0.8123732251521298,
+        "pr_auc": 0.8786357969067817,
+        "roc_auc": 0.8853255387908854
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "legacy_kmers",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.012248919643413791,
+        "feature_count": 388,
+        "threshold": 0.5241715656495062,
+        "mcc": 0.621690322255676,
+        "accuracy": 0.8103448275862069,
+        "pr_auc": 0.8650086778909918,
+        "roc_auc": 0.8716288260842716
+      }
+    ]
+  },
+  "bsubtilis": {
+    "model_group": "bsubtilis",
+    "domain": "bacteria",
+    "organism": "Bacillus subtilis",
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "canonical_kmers"
+    ],
+    "validation": {
+      "feature_count": 2815,
+      "threshold": 0.4942970297029703,
+      "mcc": 0.5758902508161343,
+      "accuracy": 0.7870370370370371,
+      "pr_auc": 0.8394329097603133,
+      "roc_auc": 0.8443392165303487
+    },
+    "stages": [
+      {
+        "stage": "baseline_legacy_1_4mers_without_n_ratio",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": null,
+        "feature_count": 383,
+        "threshold": 0.5179867257472135,
+        "mcc": 0.5546836944598419,
+        "accuracy": 0.7777777777777778,
+        "pr_auc": 0.825138646415293,
+        "roc_auc": 0.829530779164873
+      },
+      {
+        "stage": "canonical_kmers",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.021206556356292428,
+        "feature_count": 2815,
+        "threshold": 0.4942970297029703,
+        "mcc": 0.5758902508161343,
+        "accuracy": 0.7870370370370371,
+        "pr_auc": 0.8394329097603133,
+        "roc_auc": 0.8443392165303487
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.0034241824801705123,
+        "feature_count": 2903,
+        "threshold": 0.5370325186917406,
+        "mcc": 0.5724660683359638,
+        "accuracy": 0.7824074074074074,
+        "pr_auc": 0.83709061773013,
+        "roc_auc": 0.8266896254842876
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.02190192550579828,
+        "feature_count": 2820,
+        "threshold": 0.5924509638034812,
+        "mcc": 0.553988325310336,
+        "accuracy": 0.7638888888888888,
+        "pr_auc": 0.8440274604376267,
+        "roc_auc": 0.8433060697374085
+      }
+    ]
+  },
+  "archaea": {
+    "model_group": "archaea",
+    "domain": "archaea",
+    "organism": "Archaea_unspecified",
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "legacy_kmers"
+    ],
+    "validation": {
+      "feature_count": 383,
+      "threshold": 0.5084344889869253,
+      "mcc": 0.6991451804763013,
+      "accuracy": 0.8661219358893778,
+      "pr_auc": 0.8885552749627674,
+      "roc_auc": 0.9345328469205572
+    },
+    "stages": [
+      {
+        "stage": "baseline_legacy_1_4mers_without_n_ratio",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": null,
+        "feature_count": 383,
+        "threshold": 0.5084344889869253,
+        "mcc": 0.6991451804763013,
+        "accuracy": 0.8661219358893778,
+        "pr_auc": 0.8885552749627674,
+        "roc_auc": 0.9345328469205572
+      },
+      {
+        "stage": "canonical_kmers",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.09750615924251838,
+        "feature_count": 2815,
+        "threshold": 0.5180785815304485,
+        "mcc": 0.6016390212337829,
+        "accuracy": 0.825267127592709,
+        "pr_auc": 0.8365681593057093,
+        "roc_auc": 0.9005876316196421
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "accepted": false,
+        "not_applicable": true,
+        "delta_mcc": 0.0
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "legacy_kmers",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.011946019773232508,
+        "feature_count": 388,
+        "threshold": 0.4450307664973181,
+        "mcc": 0.6871991607030687,
+        "accuracy": 0.8529226901319925,
+        "pr_auc": 0.882353137000596,
+        "roc_auc": 0.9316052324518858
+      }
+    ]
+  },
+  "human": {
+    "model_group": "human",
+    "domain": "eukaryota",
+    "organism": "Homo sapiens",
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "canonical_kmers",
+      "stability"
+    ],
+    "validation": {
+      "feature_count": 2820,
+      "threshold": 0.4724107109392298,
+      "mcc": 0.6969577200337499,
+      "accuracy": 0.8467213114754099,
+      "pr_auc": 0.9591593375571406,
+      "roc_auc": 0.9314668743587411
+    },
+    "stages": [
+      {
+        "stage": "baseline_legacy_1_4mers_without_n_ratio",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": null,
+        "feature_count": 383,
+        "threshold": 0.4780698798386412,
+        "mcc": 0.6669624073602445,
+        "accuracy": 0.8317622950819672,
+        "pr_auc": 0.9484583838659679,
+        "roc_auc": 0.9107641045409152
+      },
+      {
+        "stage": "canonical_kmers",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.02244318138577306,
+        "feature_count": 2815,
+        "threshold": 0.4147250357622353,
+        "mcc": 0.6894055887460175,
+        "accuracy": 0.85,
+        "pr_auc": 0.9584742928340516,
+        "roc_auc": 0.9301325123816766
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.026342277467186426,
+        "feature_count": 2947,
+        "threshold": 0.5318776065674524,
+        "mcc": 0.6630633112788311,
+        "accuracy": 0.823155737704918,
+        "pr_auc": 0.9494039505022571,
+        "roc_auc": 0.9141497938768351
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "stability"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.007552131287732355,
+        "feature_count": 2820,
+        "threshold": 0.4724107109392298,
+        "mcc": 0.6969577200337499,
+        "accuracy": 0.8467213114754099,
+        "pr_auc": 0.9591593375571406,
+        "roc_auc": 0.9314668743587411
+      }
+    ]
+  },
+  "mouse": {
+    "model_group": "mouse",
+    "domain": "eukaryota",
+    "organism": "Mus musculus",
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "legacy_kmers",
+      "position_specific"
+    ],
+    "validation": {
+      "feature_count": 515,
+      "threshold": 0.5368539424212723,
+      "mcc": 0.7484243050512249,
+      "accuracy": 0.8778548468956183,
+      "pr_auc": 0.9246226532930526,
+      "roc_auc": 0.9336213578736194
+    },
+    "stages": [
+      {
+        "stage": "baseline_legacy_1_4mers_without_n_ratio",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": null,
+        "feature_count": 383,
+        "threshold": 0.5368777423605932,
+        "mcc": 0.7421727092305083,
+        "accuracy": 0.8746405007612925,
+        "pr_auc": 0.9199067894981561,
+        "roc_auc": 0.9289769518003438
+      },
+      {
+        "stage": "canonical_kmers",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.0037823834400638745,
+        "feature_count": 2815,
+        "threshold": 0.5814485509523147,
+        "mcc": 0.7383903257904444,
+        "accuracy": 0.8722720351886314,
+        "pr_auc": 0.9178669236641591,
+        "roc_auc": 0.9283271588696645
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "legacy_kmers",
+          "position_specific"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.00625159582071666,
+        "feature_count": 515,
+        "threshold": 0.5368539424212723,
+        "mcc": 0.7484243050512249,
+        "accuracy": 0.8778548468956183,
+        "pr_auc": 0.9246226532930526,
+        "roc_auc": 0.9336213578736194
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "legacy_kmers",
+          "position_specific",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.0009981376757304261,
+        "feature_count": 520,
+        "threshold": 0.5508533145642676,
+        "mcc": 0.7474261673754945,
+        "accuracy": 0.8770089663339536,
+        "pr_auc": 0.9253485966230417,
+        "roc_auc": 0.9345045433995365
+      }
+    ]
+  },
+  "arabidopsis": {
+    "model_group": "arabidopsis",
+    "domain": "eukaryota",
+    "organism": "Arabidopsis thaliana",
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "canonical_kmers",
+      "position_specific",
+      "stability"
+    ],
+    "validation": {
+      "feature_count": 2952,
+      "threshold": 0.560245492023352,
+      "mcc": 0.8253160881169981,
+      "accuracy": 0.9238385376999239,
+      "pr_auc": 0.9855167502533708,
+      "roc_auc": 0.9724959835655403
+    },
+    "stages": [
+      {
+        "stage": "baseline_legacy_1_4mers_without_n_ratio",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": null,
+        "feature_count": 383,
+        "threshold": 0.635966698379827,
+        "mcc": 0.7864240559622223,
+        "accuracy": 0.9017517136329017,
+        "pr_auc": 0.9743606476425167,
+        "roc_auc": 0.9581803576601966
+      },
+      {
+        "stage": "canonical_kmers",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.023036805843165364,
+        "feature_count": 2815,
+        "threshold": 0.5747355887949521,
+        "mcc": 0.8094608618053877,
+        "accuracy": 0.916984006092917,
+        "pr_auc": 0.9809604395536673,
+        "roc_auc": 0.9643788353656931
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.009014530700135803,
+        "feature_count": 2947,
+        "threshold": 0.6097992387377655,
+        "mcc": 0.8184753925055235,
+        "accuracy": 0.9192688499619193,
+        "pr_auc": 0.9851124675563849,
+        "roc_auc": 0.9717769759540678
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific",
+          "stability"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.006840695611474601,
+        "feature_count": 2952,
+        "threshold": 0.560245492023352,
+        "mcc": 0.8253160881169981,
+        "accuracy": 0.9238385376999239,
+        "pr_auc": 0.9855167502533708,
+        "roc_auc": 0.9724959835655403
+      }
+    ]
+  }
+}

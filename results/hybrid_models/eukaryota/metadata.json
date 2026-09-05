@@ -1,0 +1,84 @@
+{
+  "domain": "eukaryota",
+  "feature_version": 1,
+  "maximum_length": 251,
+  "trees": 300,
+  "cnn_weight": 0.45,
+  "random_forest_weight": 0.55,
+  "threshold": 0.5432578621008766,
+  "validation_metrics": {
+    "accuracy": 0.8526933245208196,
+    "sensitivity": 0.767590960089758,
+    "specificity": 0.9432225063938618,
+    "precision": 0.9349863334634908,
+    "recall": 0.767590960089758,
+    "f1": 0.8430595898248394,
+    "mcc": 0.7190141524306891,
+    "balanced_accuracy": 0.8554067332418099,
+    "roc_auc": 0.9172140921986891,
+    "pr_auc": 0.9377789746630092,
+    "false_positive_rate": 0.05677749360613815,
+    "false_negative_rate": 0.23240903991024198,
+    "brier_score": 0.1123885270105315,
+    "confusion_matrix": [
+      [
+        5532,
+        333
+      ],
+      [
+        1450,
+        4789
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.854793388429752,
+    "sensitivity": 0.7704024370691037,
+    "specificity": 0.9445676274944568,
+    "precision": 0.9366471734892787,
+    "recall": 0.7704024370691037,
+    "f1": 0.8454297527931732,
+    "mcc": 0.7230371398016855,
+    "balanced_accuracy": 0.8574850322817802,
+    "roc_auc": 0.9182137016578997,
+    "pr_auc": 0.93894649025971,
+    "false_positive_rate": 0.055432372505543226,
+    "false_negative_rate": 0.22959756293089628,
+    "brier_score": 0.11080618920852503,
+    "confusion_matrix": [
+      [
+        5538,
+        325
+      ],
+      [
+        1432,
+        4805
+      ]
+    ]
+  },
+  "cnn_only_test_metrics": {
+    "accuracy": 0.8472727272727273,
+    "sensitivity": 0.7612634279300946,
+    "specificity": 0.9387685485246461,
+    "precision": 0.9297043273937733,
+    "recall": 0.7612634279300946,
+    "f1": 0.8370944992947814,
+    "mcc": 0.7083550664162375,
+    "balanced_accuracy": 0.8500159882273703,
+    "roc_auc": 0.9111819444413679,
+    "pr_auc": 0.9317494150757022,
+    "false_positive_rate": 0.061231451475353915,
+    "false_negative_rate": 0.2387365720699054,
+    "brier_score": 0.114773506727545,
+    "confusion_matrix": [
+      [
+        5504,
+        359
+      ],
+      [
+        1489,
+        4748
+      ]
+    ]
+  }
+}

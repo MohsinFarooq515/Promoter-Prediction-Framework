@@ -1,0 +1,84 @@
+{
+  "domain": "bacteria",
+  "feature_version": 1,
+  "maximum_length": 81,
+  "trees": 500,
+  "cnn_weight": 0.9,
+  "random_forest_weight": 0.09999999999999998,
+  "threshold": 0.8140015363666975,
+  "validation_metrics": {
+    "accuracy": 0.8343296327924851,
+    "sensitivity": 0.7388059701492538,
+    "specificity": 0.9149606299212598,
+    "precision": 0.88,
+    "recall": 0.7388059701492538,
+    "f1": 0.8032454361054767,
+    "mcc": 0.669604089872944,
+    "balanced_accuracy": 0.8268833000352568,
+    "roc_auc": 0.8988218357033729,
+    "pr_auc": 0.891822575868176,
+    "false_positive_rate": 0.08503937007874018,
+    "false_negative_rate": 0.26119402985074625,
+    "brier_score": 0.15725455927589374,
+    "confusion_matrix": [
+      [
+        581,
+        54
+      ],
+      [
+        140,
+        396
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.8126603934987169,
+    "sensitivity": 0.7233644859813084,
+    "specificity": 0.88801261829653,
+    "precision": 0.8449781659388647,
+    "recall": 0.7233644859813084,
+    "f1": 0.7794561933534743,
+    "mcc": 0.6239691976676638,
+    "balanced_accuracy": 0.8056885521389192,
+    "roc_auc": 0.8789498511158937,
+    "pr_auc": 0.8686454290915675,
+    "false_positive_rate": 0.11198738170347,
+    "false_negative_rate": 0.2766355140186916,
+    "brier_score": 0.16891314417511014,
+    "confusion_matrix": [
+      [
+        563,
+        71
+      ],
+      [
+        148,
+        387
+      ]
+    ]
+  },
+  "cnn_only_test_metrics": {
+    "accuracy": 0.8075278015397775,
+    "sensitivity": 0.6915887850467289,
+    "specificity": 0.9053627760252366,
+    "precision": 0.8604651162790697,
+    "recall": 0.6915887850467289,
+    "f1": 0.7668393782383419,
+    "mcc": 0.6167429094554471,
+    "balanced_accuracy": 0.7984757805359828,
+    "roc_auc": 0.8754798195701524,
+    "pr_auc": 0.8599887031626823,
+    "false_positive_rate": 0.09463722397476337,
+    "false_negative_rate": 0.30841121495327106,
+    "brier_score": 0.17671903936343852,
+    "confusion_matrix": [
+      [
+        574,
+        60
+      ],
+      [
+        165,
+        370
+      ]
+    ]
+  }
+}

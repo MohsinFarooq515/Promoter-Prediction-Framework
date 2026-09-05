@@ -1,0 +1,944 @@
+{
+  "ecoli": {
+    "model_group": "ecoli",
+    "domain": "bacteria",
+    "organism": "Escherichia coli",
+    "protocol": "3-fold grouped out-of-fold development predictions; test untouched",
+    "development_count": 5588,
+    "trees": 50,
+    "folds": 3,
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "directional_kmers_3_6",
+      "position_specific"
+    ],
+    "validation_oof": {
+      "feature_count": 5571,
+      "threshold": 0.5175121407846452,
+      "mcc": 0.6334303486718167,
+      "accuracy": 0.816034359341446,
+      "pr_auc": 0.874443926959901,
+      "roc_auc": 0.881736109402046,
+      "fold_mcc": [
+        0.6373158974674195,
+        0.6322933267603515,
+        0.6415644094125749
+      ],
+      "mean_fold_mcc": 0.6370578778801153,
+      "std_fold_mcc": 0.003789298436972513
+    },
+    "stages": [
+      {
+        "stage": "directional_1_4",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "feature_count": 383,
+        "threshold": 0.5584637821686976,
+        "mcc": 0.6091493456520252,
+        "accuracy": 0.8015390121689334,
+        "pr_auc": 0.8653651292181705,
+        "roc_auc": 0.8690160501726838,
+        "fold_mcc": [
+          0.6084462232483944,
+          0.6012229735884765,
+          0.6341010278876925
+        ],
+        "mean_fold_mcc": 0.6145900749081878,
+        "std_fold_mcc": 0.014107959893589822,
+        "accepted": false,
+        "delta_mcc": 0.0
+      },
+      {
+        "stage": "directional_1_6",
+        "candidate_blocks": [
+          "directional_kmers_1_6"
+        ],
+        "feature_count": 5503,
+        "threshold": 0.49073614690787487,
+        "mcc": 0.6183895763223036,
+        "accuracy": 0.8092340730136006,
+        "pr_auc": 0.8678455767622353,
+        "roc_auc": 0.8714878711064077,
+        "fold_mcc": [
+          0.6016727835959159,
+          0.6187421473257323,
+          0.6408956769447894
+        ],
+        "mean_fold_mcc": 0.6204368692888126,
+        "std_fold_mcc": 0.016057457303142914,
+        "accepted": false,
+        "delta_mcc": 0.00924023067027846
+      },
+      {
+        "stage": "directional_3_6",
+        "candidate_blocks": [
+          "directional_kmers_3_6"
+        ],
+        "feature_count": 5483,
+        "threshold": 0.5111274034372386,
+        "mcc": 0.6236692640833776,
+        "accuracy": 0.8113815318539728,
+        "pr_auc": 0.8678863662854003,
+        "roc_auc": 0.8742091300995087,
+        "fold_mcc": [
+          0.6107667190973913,
+          0.6309130668998587,
+          0.6390493277949924
+        ],
+        "mean_fold_mcc": 0.6269097045974141,
+        "std_fold_mcc": 0.011888276325267679,
+        "accepted": true,
+        "delta_mcc": 0.014519918431352474
+      },
+      {
+        "stage": "canonical_1_6",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "feature_count": 2815,
+        "threshold": 0.5231490561949493,
+        "mcc": 0.6052592689527394,
+        "accuracy": 0.8015390121689334,
+        "pr_auc": 0.8612669566460252,
+        "roc_auc": 0.8679245984380511,
+        "fold_mcc": [
+          0.5955566987522862,
+          0.603958903941138,
+          0.6298169014169374
+        ],
+        "mean_fold_mcc": 0.6097775013701207,
+        "std_fold_mcc": 0.014579264469013595,
+        "accepted": false,
+        "delta_mcc": -0.0038900766992857605
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "directional_kmers_3_6",
+          "position_specific"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.00976108458843905,
+        "feature_count": 5571,
+        "threshold": 0.5175121407846452,
+        "mcc": 0.6334303486718167,
+        "accuracy": 0.816034359341446,
+        "pr_auc": 0.874443926959901,
+        "roc_auc": 0.881736109402046,
+        "fold_mcc": [
+          0.6373158974674195,
+          0.6322933267603515,
+          0.6415644094125749
+        ],
+        "mean_fold_mcc": 0.6370578778801153,
+        "std_fold_mcc": 0.003789298436972513
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "directional_kmers_3_6",
+          "position_specific",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.007602292431619695,
+        "feature_count": 5576,
+        "threshold": 0.49332673722537573,
+        "mcc": 0.625828056240197,
+        "accuracy": 0.8128131710808876,
+        "pr_auc": 0.8712682226382225,
+        "roc_auc": 0.8771036882993298,
+        "fold_mcc": [
+          0.6189162287411359,
+          0.6254456835925907,
+          0.6437396093638236
+        ],
+        "mean_fold_mcc": 0.6293671738991834,
+        "std_fold_mcc": 0.010506620803196158
+      }
+    ]
+  },
+  "bsubtilis": {
+    "model_group": "bsubtilis",
+    "domain": "bacteria",
+    "organism": "Bacillus subtilis",
+    "protocol": "3-fold grouped out-of-fold development predictions; test untouched",
+    "development_count": 1226,
+    "trees": 50,
+    "folds": 3,
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "canonical_kmers"
+    ],
+    "validation_oof": {
+      "feature_count": 2815,
+      "threshold": 0.4629963846864075,
+      "mcc": 0.5971808912770404,
+      "accuracy": 0.797716150081566,
+      "pr_auc": 0.8585827692967558,
+      "roc_auc": 0.8731055342981124,
+      "fold_mcc": [
+        0.6829986945088782,
+        0.5599348370651014,
+        0.5757228090973864
+      ],
+      "mean_fold_mcc": 0.6062187802237887,
+      "std_fold_mcc": 0.05467285397978492
+    },
+    "stages": [
+      {
+        "stage": "directional_1_4",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "feature_count": 383,
+        "threshold": 0.5091074400588395,
+        "mcc": 0.5872281010244425,
+        "accuracy": 0.7944535073409462,
+        "pr_auc": 0.8507599413043749,
+        "roc_auc": 0.865578439964943,
+        "fold_mcc": [
+          0.5981156823712498,
+          0.5776502740609213,
+          0.6014825941014199
+        ],
+        "mean_fold_mcc": 0.592416183511197,
+        "std_fold_mcc": 0.010531162806008822,
+        "accepted": false,
+        "delta_mcc": 0.0
+      },
+      {
+        "stage": "directional_1_6",
+        "candidate_blocks": [
+          "directional_kmers_1_6"
+        ],
+        "feature_count": 5503,
+        "threshold": 0.5154197994298846,
+        "mcc": 0.5438671945270204,
+        "accuracy": 0.7724306688417618,
+        "pr_auc": 0.8409076803773143,
+        "roc_auc": 0.8495489621855027,
+        "fold_mcc": [
+          0.5557407501297914,
+          0.5369155641539468,
+          0.5910809312942398
+        ],
+        "mean_fold_mcc": 0.5612457485259926,
+        "std_fold_mcc": 0.02245292118882405,
+        "accepted": false,
+        "delta_mcc": -0.04336090649742208
+      },
+      {
+        "stage": "directional_3_6",
+        "candidate_blocks": [
+          "directional_kmers_3_6"
+        ],
+        "feature_count": 5483,
+        "threshold": 0.5178023934112786,
+        "mcc": 0.5662165398659035,
+        "accuracy": 0.7822185970636215,
+        "pr_auc": 0.8452967085289035,
+        "roc_auc": 0.8537093050597464,
+        "fold_mcc": [
+          0.5724804222357212,
+          0.524915667756772,
+          0.6188354181919483
+        ],
+        "mean_fold_mcc": 0.5720771693948139,
+        "std_fold_mcc": 0.038343637804219226,
+        "accepted": false,
+        "delta_mcc": -0.02101156115853897
+      },
+      {
+        "stage": "canonical_1_6",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "feature_count": 2815,
+        "threshold": 0.4629963846864075,
+        "mcc": 0.5971808912770404,
+        "accuracy": 0.797716150081566,
+        "pr_auc": 0.8585827692967558,
+        "roc_auc": 0.8731055342981124,
+        "fold_mcc": [
+          0.6829986945088782,
+          0.5599348370651014,
+          0.5757228090973864
+        ],
+        "mean_fold_mcc": 0.6062187802237887,
+        "std_fold_mcc": 0.05467285397978492,
+        "accepted": true,
+        "delta_mcc": 0.009952790252597987
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.023152952614240108,
+        "feature_count": 2903,
+        "threshold": 0.5367192735546047,
+        "mcc": 0.5740279386628003,
+        "accuracy": 0.7862969004893964,
+        "pr_auc": 0.8559166085427621,
+        "roc_auc": 0.8653513178427138,
+        "fold_mcc": [
+          0.6017453426512214,
+          0.56746891640096,
+          0.5697825361152201
+        ],
+        "mean_fold_mcc": 0.5796655983891338,
+        "std_fold_mcc": 0.015641281683522492
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.004584337557626328,
+        "feature_count": 2820,
+        "threshold": 0.4791437562014146,
+        "mcc": 0.5925965537194141,
+        "accuracy": 0.7969004893964111,
+        "pr_auc": 0.856649262199205,
+        "roc_auc": 0.8746686689040423,
+        "fold_mcc": [
+          0.6316134108006366,
+          0.5795572643086646,
+          0.5951576748430497
+        ],
+        "mean_fold_mcc": 0.602109449984117,
+        "std_fold_mcc": 0.021812931640159124
+      }
+    ]
+  },
+  "archaea": {
+    "model_group": "archaea",
+    "domain": "archaea",
+    "organism": "Archaea_unspecified",
+    "protocol": "3-fold grouped out-of-fold development predictions; test untouched",
+    "development_count": 9015,
+    "trees": 50,
+    "folds": 3,
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "legacy_kmers"
+    ],
+    "validation_oof": {
+      "feature_count": 383,
+      "threshold": 0.4829088653573457,
+      "mcc": 0.6938817883157234,
+      "accuracy": 0.8627842484747643,
+      "pr_auc": 0.8825836258327757,
+      "roc_auc": 0.9315175951168918,
+      "fold_mcc": [
+        0.6915381720671085,
+        0.7100274775714001,
+        0.6897544810689696
+      ],
+      "mean_fold_mcc": 0.697106710235826,
+      "std_fold_mcc": 0.009165335411183343
+    },
+    "stages": [
+      {
+        "stage": "directional_1_4",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "feature_count": 383,
+        "threshold": 0.4829088653573457,
+        "mcc": 0.6938817883157234,
+        "accuracy": 0.8627842484747643,
+        "pr_auc": 0.8825836258327757,
+        "roc_auc": 0.9315175951168918,
+        "fold_mcc": [
+          0.6915381720671085,
+          0.7100274775714001,
+          0.6897544810689696
+        ],
+        "mean_fold_mcc": 0.697106710235826,
+        "std_fold_mcc": 0.009165335411183343,
+        "accepted": true,
+        "delta_mcc": 0.0
+      },
+      {
+        "stage": "directional_1_6",
+        "candidate_blocks": [
+          "directional_kmers_1_6"
+        ],
+        "feature_count": 5503,
+        "threshold": 0.5185938063284944,
+        "mcc": 0.6035968761317658,
+        "accuracy": 0.8251802551303383,
+        "pr_auc": 0.8383387839666772,
+        "roc_auc": 0.9034854188366294,
+        "fold_mcc": [
+          0.6023640702845022,
+          0.6080878134119795,
+          0.6241031547591672
+        ],
+        "mean_fold_mcc": 0.6115183461518829,
+        "std_fold_mcc": 0.009200484212214683,
+        "accepted": false,
+        "delta_mcc": -0.09028491218395762
+      },
+      {
+        "stage": "directional_3_6",
+        "candidate_blocks": [
+          "directional_kmers_3_6"
+        ],
+        "feature_count": 5483,
+        "threshold": 0.5115631245487092,
+        "mcc": 0.6057588898016891,
+        "accuracy": 0.8251802551303383,
+        "pr_auc": 0.8358195782587843,
+        "roc_auc": 0.9032976899299796,
+        "fold_mcc": [
+          0.5875098965846098,
+          0.6315761319308592,
+          0.6098089603855872
+        ],
+        "mean_fold_mcc": 0.6096316629670188,
+        "std_fold_mcc": 0.01799040207404551,
+        "accepted": false,
+        "delta_mcc": -0.08812289851403432
+      },
+      {
+        "stage": "canonical_1_6",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "feature_count": 2815,
+        "threshold": 0.5277380465227177,
+        "mcc": 0.6099816345649645,
+        "accuracy": 0.8291735995562951,
+        "pr_auc": 0.844465665073296,
+        "roc_auc": 0.9070364483650535,
+        "fold_mcc": [
+          0.5991265861910472,
+          0.6319770885106416,
+          0.6176477326737256
+        ],
+        "mean_fold_mcc": 0.6162504691251381,
+        "std_fold_mcc": 0.013447506205751258,
+        "accepted": false,
+        "delta_mcc": -0.08390015375075899
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "accepted": false,
+        "not_applicable": true,
+        "delta_mcc": 0.0
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "legacy_kmers",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.002835931954812354,
+        "feature_count": 388,
+        "threshold": 0.5082255010845131,
+        "mcc": 0.6910458563609111,
+        "accuracy": 0.8634498058790904,
+        "pr_auc": 0.8859341387041063,
+        "roc_auc": 0.9319958262272418,
+        "fold_mcc": [
+          0.6797476701979304,
+          0.7167731954665408,
+          0.6881437887093831
+        ],
+        "mean_fold_mcc": 0.6948882181246181,
+        "std_fold_mcc": 0.015850086781191316
+      }
+    ]
+  },
+  "human": {
+    "model_group": "human",
+    "domain": "eukaryota",
+    "organism": "Homo sapiens",
+    "protocol": "3-fold grouped out-of-fold development predictions; test untouched",
+    "development_count": 27659,
+    "trees": 50,
+    "folds": 3,
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "directional_kmers_1_6"
+    ],
+    "validation_oof": {
+      "feature_count": 5503,
+      "threshold": 0.46628954536769185,
+      "mcc": 0.6800930943113654,
+      "accuracy": 0.8391481976933367,
+      "pr_auc": 0.9573197833539733,
+      "roc_auc": 0.9293426917297545,
+      "fold_mcc": [
+        0.684996068569004,
+        0.6859077484780947,
+        0.6746133031846675
+      ],
+      "mean_fold_mcc": 0.6818390400772554,
+      "std_fold_mcc": 0.005122905770155515
+    },
+    "stages": [
+      {
+        "stage": "directional_1_4",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "feature_count": 383,
+        "threshold": 0.529274162833088,
+        "mcc": 0.6529813977232765,
+        "accuracy": 0.8172023572797281,
+        "pr_auc": 0.9446867672198276,
+        "roc_auc": 0.9059262388909799,
+        "fold_mcc": [
+          0.658394193853436,
+          0.6545653405896551,
+          0.647273204923319
+        ],
+        "mean_fold_mcc": 0.6534109131221367,
+        "std_fold_mcc": 0.004612925736758046,
+        "accepted": false,
+        "delta_mcc": 0.0
+      },
+      {
+        "stage": "directional_1_6",
+        "candidate_blocks": [
+          "directional_kmers_1_6"
+        ],
+        "feature_count": 5503,
+        "threshold": 0.46628954536769185,
+        "mcc": 0.6800930943113654,
+        "accuracy": 0.8391481976933367,
+        "pr_auc": 0.9573197833539733,
+        "roc_auc": 0.9293426917297545,
+        "fold_mcc": [
+          0.684996068569004,
+          0.6859077484780947,
+          0.6746133031846675
+        ],
+        "mean_fold_mcc": 0.6818390400772554,
+        "std_fold_mcc": 0.005122905770155515,
+        "accepted": true,
+        "delta_mcc": 0.027111696588088985
+      },
+      {
+        "stage": "directional_3_6",
+        "candidate_blocks": [
+          "directional_kmers_3_6"
+        ],
+        "feature_count": 5483,
+        "threshold": 0.4533826244694739,
+        "mcc": 0.6746803062254679,
+        "accuracy": 0.8390758884992227,
+        "pr_auc": 0.9553854345067088,
+        "roc_auc": 0.9272072321124585,
+        "fold_mcc": [
+          0.6881603108644949,
+          0.6714580161183028,
+          0.6681188512168464
+        ],
+        "mean_fold_mcc": 0.6759123927332147,
+        "std_fold_mcc": 0.008767216565998817,
+        "accepted": false,
+        "delta_mcc": 0.021698908502191472
+      },
+      {
+        "stage": "canonical_1_6",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "feature_count": 2815,
+        "threshold": 0.43987059505873277,
+        "mcc": 0.6763695839730532,
+        "accuracy": 0.8412090097255867,
+        "pr_auc": 0.9545253838542508,
+        "roc_auc": 0.9244138750084211,
+        "fold_mcc": [
+          0.689222619867447,
+          0.6758907580940853,
+          0.6705711533892855
+        ],
+        "mean_fold_mcc": 0.6785615104502726,
+        "std_fold_mcc": 0.007845125410408505,
+        "accepted": false,
+        "delta_mcc": 0.023388186249776788
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "directional_kmers_1_6",
+          "position_specific"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.023938106981321372,
+        "feature_count": 5635,
+        "threshold": 0.5103091345003686,
+        "mcc": 0.6561549873300441,
+        "accuracy": 0.8220832278824253,
+        "pr_auc": 0.9499747192438911,
+        "roc_auc": 0.9154705748239632,
+        "fold_mcc": [
+          0.6664704562314931,
+          0.660458341933511,
+          0.6481231332106203
+        ],
+        "mean_fold_mcc": 0.6583506437918748,
+        "std_fold_mcc": 0.0076370962675725166
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "directional_kmers_1_6",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.0035843832209574433,
+        "feature_count": 5508,
+        "threshold": 0.4702980493618653,
+        "mcc": 0.676508711090408,
+        "accuracy": 0.8370512310640298,
+        "pr_auc": 0.9561873022233786,
+        "roc_auc": 0.9274734981628373,
+        "fold_mcc": [
+          0.6812228927214267,
+          0.67716434701268,
+          0.6776112559472125
+        ],
+        "mean_fold_mcc": 0.6786661652271064,
+        "std_fold_mcc": 0.0018170623744753764
+      }
+    ]
+  },
+  "mouse": {
+    "model_group": "mouse",
+    "domain": "eukaryota",
+    "organism": "Mus musculus",
+    "protocol": "3-fold grouped out-of-fold development predictions; test untouched",
+    "development_count": 33492,
+    "trees": 50,
+    "folds": 3,
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "canonical_kmers",
+      "position_specific"
+    ],
+    "validation_oof": {
+      "feature_count": 2947,
+      "threshold": 0.5050635151030545,
+      "mcc": 0.7489541925557357,
+      "accuracy": 0.8786575898722083,
+      "pr_auc": 0.9254145675347858,
+      "roc_auc": 0.9344455844248909,
+      "fold_mcc": [
+        0.7569876595450789,
+        0.7383390126867848,
+        0.7541222568438098
+      ],
+      "mean_fold_mcc": 0.7498163096918912,
+      "std_fold_mcc": 0.008199548486255303
+    },
+    "stages": [
+      {
+        "stage": "directional_1_4",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "feature_count": 383,
+        "threshold": 0.511858300949956,
+        "mcc": 0.7390570858862788,
+        "accuracy": 0.8737011823719097,
+        "pr_auc": 0.9205767672464436,
+        "roc_auc": 0.9287371091222753,
+        "fold_mcc": [
+          0.7502176071345524,
+          0.7281559375490493,
+          0.7433601475934506
+        ],
+        "mean_fold_mcc": 0.740577897425684,
+        "std_fold_mcc": 0.009219002231695365,
+        "accepted": false,
+        "delta_mcc": 0.0
+      },
+      {
+        "stage": "directional_1_6",
+        "candidate_blocks": [
+          "directional_kmers_1_6"
+        ],
+        "feature_count": 5503,
+        "threshold": 0.5324355111138038,
+        "mcc": 0.7352881090283837,
+        "accuracy": 0.8717007046458856,
+        "pr_auc": 0.917785255423334,
+        "roc_auc": 0.926915106781797,
+        "fold_mcc": [
+          0.7453036738125823,
+          0.7257923283685287,
+          0.7394680728920973
+        ],
+        "mean_fold_mcc": 0.7368546916910694,
+        "std_fold_mcc": 0.008177019474752092,
+        "accepted": false,
+        "delta_mcc": -0.0037689768578951233
+      },
+      {
+        "stage": "directional_3_6",
+        "candidate_blocks": [
+          "directional_kmers_3_6"
+        ],
+        "feature_count": 5483,
+        "threshold": 0.5125702130810258,
+        "mcc": 0.7376360848019313,
+        "accuracy": 0.8731637405947689,
+        "pr_auc": 0.9192471561422348,
+        "roc_auc": 0.9279324489008328,
+        "fold_mcc": [
+          0.7463721072177536,
+          0.7253444165127948,
+          0.7422621826454482
+        ],
+        "mean_fold_mcc": 0.7379929021253323,
+        "std_fold_mcc": 0.00909985388950226,
+        "accepted": false,
+        "delta_mcc": -0.0014210010843475063
+      },
+      {
+        "stage": "canonical_1_6",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "feature_count": 2815,
+        "threshold": 0.5073362603447293,
+        "mcc": 0.74202864448396,
+        "accuracy": 0.8752537919503165,
+        "pr_auc": 0.9209873389004525,
+        "roc_auc": 0.9299872888807302,
+        "fold_mcc": [
+          0.7486868430030684,
+          0.7338029887958534,
+          0.7461279681244471
+        ],
+        "mean_fold_mcc": 0.7428725999744564,
+        "std_fold_mcc": 0.006497709614902232,
+        "accepted": true,
+        "delta_mcc": 0.0029715585976811676
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.0069255480717757,
+        "feature_count": 2947,
+        "threshold": 0.5050635151030545,
+        "mcc": 0.7489541925557357,
+        "accuracy": 0.8786575898722083,
+        "pr_auc": 0.9254145675347858,
+        "roc_auc": 0.9344455844248909,
+        "fold_mcc": [
+          0.7569876595450789,
+          0.7383390126867848,
+          0.7541222568438098
+        ],
+        "mean_fold_mcc": 0.7498163096918912,
+        "std_fold_mcc": 0.008199548486255303
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific",
+          "stability"
+        ],
+        "accepted": false,
+        "delta_mcc": -0.0015846494818713142,
+        "feature_count": 2952,
+        "threshold": 0.4933167144621631,
+        "mcc": 0.7473695430738644,
+        "accuracy": 0.878030574465544,
+        "pr_auc": 0.9256952250238728,
+        "roc_auc": 0.9346572925616936,
+        "fold_mcc": [
+          0.7543468722619254,
+          0.7384156205070148,
+          0.7526042351177619
+        ],
+        "mean_fold_mcc": 0.7484555759622341,
+        "std_fold_mcc": 0.007134877957897821
+      }
+    ]
+  },
+  "arabidopsis": {
+    "model_group": "arabidopsis",
+    "domain": "eukaryota",
+    "organism": "Arabidopsis thaliana",
+    "protocol": "3-fold grouped out-of-fold development predictions; test untouched",
+    "development_count": 7440,
+    "trees": 50,
+    "folds": 3,
+    "minimum_mcc_delta": 0.002,
+    "selected_blocks": [
+      "canonical_kmers",
+      "position_specific",
+      "stability"
+    ],
+    "validation_oof": {
+      "feature_count": 2952,
+      "threshold": 0.540615877550126,
+      "mcc": 0.8406058097320079,
+      "accuracy": 0.9305107526881721,
+      "pr_auc": 0.985061972601474,
+      "roc_auc": 0.9743599060096154,
+      "fold_mcc": [
+        0.8581395745484488,
+        0.840570335638795,
+        0.8424145841292259
+      ],
+      "mean_fold_mcc": 0.8470414981054898,
+      "std_fold_mcc": 0.007883560476245641
+    },
+    "stages": [
+      {
+        "stage": "directional_1_4",
+        "candidate_blocks": [
+          "legacy_kmers"
+        ],
+        "feature_count": 383,
+        "threshold": 0.57412748294384,
+        "mcc": 0.7937454187315268,
+        "accuracy": 0.9091397849462366,
+        "pr_auc": 0.9761738512957308,
+        "roc_auc": 0.9595414683893809,
+        "fold_mcc": [
+          0.8062068859492132,
+          0.7964487428661761,
+          0.7865007028780943
+        ],
+        "mean_fold_mcc": 0.7963854438978278,
+        "std_fold_mcc": 0.008045140060005545,
+        "accepted": false,
+        "delta_mcc": 0.0
+      },
+      {
+        "stage": "directional_1_6",
+        "candidate_blocks": [
+          "directional_kmers_1_6"
+        ],
+        "feature_count": 5503,
+        "threshold": 0.5263870967741936,
+        "mcc": 0.8053786482993431,
+        "accuracy": 0.9154569892473118,
+        "pr_auc": 0.9754153655198106,
+        "roc_auc": 0.9586254812561786,
+        "fold_mcc": [
+          0.8073282297051043,
+          0.8217202971811881,
+          0.7912472513834955
+        ],
+        "mean_fold_mcc": 0.8067652594232627,
+        "std_fold_mcc": 0.012446936214740972,
+        "accepted": false,
+        "delta_mcc": 0.011633229567816317
+      },
+      {
+        "stage": "directional_3_6",
+        "candidate_blocks": [
+          "directional_kmers_3_6"
+        ],
+        "feature_count": 5483,
+        "threshold": 0.5394195956578002,
+        "mcc": 0.8020401542216953,
+        "accuracy": 0.9139784946236559,
+        "pr_auc": 0.9737518736797318,
+        "roc_auc": 0.9570339454103491,
+        "fold_mcc": [
+          0.8233691408165319,
+          0.7968029766606356,
+          0.7920389930636458
+        ],
+        "mean_fold_mcc": 0.804070370180271,
+        "std_fold_mcc": 0.013784188912938106,
+        "accepted": false,
+        "delta_mcc": 0.008294735490168459
+      },
+      {
+        "stage": "canonical_1_6",
+        "candidate_blocks": [
+          "canonical_kmers"
+        ],
+        "feature_count": 2815,
+        "threshold": 0.5554524120947401,
+        "mcc": 0.8108828755560727,
+        "accuracy": 0.917741935483871,
+        "pr_auc": 0.9783311234839898,
+        "roc_auc": 0.9632662339403908,
+        "fold_mcc": [
+          0.831107791399052,
+          0.814506357764848,
+          0.7921751501276274
+        ],
+        "mean_fold_mcc": 0.8125964330971759,
+        "std_fold_mcc": 0.01595145757748584,
+        "accepted": true,
+        "delta_mcc": 0.017137456824545927
+      },
+      {
+        "stage": "position_specific",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.026630224944060865,
+        "feature_count": 2947,
+        "threshold": 0.5642909110985992,
+        "mcc": 0.8375131005001336,
+        "accuracy": 0.9288978494623656,
+        "pr_auc": 0.984464558333868,
+        "roc_auc": 0.9739042909912649,
+        "fold_mcc": [
+          0.8518348038974178,
+          0.8398294200987224,
+          0.8291335080849135
+        ],
+        "mean_fold_mcc": 0.8402659106936845,
+        "std_fold_mcc": 0.009272903210297724
+      },
+      {
+        "stage": "stability",
+        "candidate_blocks": [
+          "canonical_kmers",
+          "position_specific",
+          "stability"
+        ],
+        "accepted": true,
+        "delta_mcc": 0.0030927092318743243,
+        "feature_count": 2952,
+        "threshold": 0.540615877550126,
+        "mcc": 0.8406058097320079,
+        "accuracy": 0.9305107526881721,
+        "pr_auc": 0.985061972601474,
+        "roc_auc": 0.9743599060096154,
+        "fold_mcc": [
+          0.8581395745484488,
+          0.840570335638795,
+          0.8424145841292259
+        ],
+        "mean_fold_mcc": 0.8470414981054898,
+        "std_fold_mcc": 0.007883560476245641
+      }
+    ]
+  }
+}

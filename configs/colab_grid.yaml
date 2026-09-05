@@ -1,0 +1,32 @@
+# T4-friendly grid. Start with one domain; expand only after the smoke test passes.
+seed: 2025
+folds: 3
+epochs: 35
+patience: 6
+batch_size: 128
+workers: 2
+primary_metric: mcc
+amp: true
+compile: false
+weighted_bce: true
+balanced_sampler: false
+gradient_clip: 1.0
+
+# Every item is a real grid: list-valued fields are combined with ParameterGrid.
+# The compact defaults are 24 trials (72 fold fits) per domain.
+search_spaces:
+  - model_name: [multiscale_cnn]
+    hidden: [96, 160]
+    channels: [32, 48]
+    blocks: [1, 2]
+    kernels: [[3, 5, 7, 11]]
+    dropout: [0.20, 0.35]
+    learning_rate: [0.0003]
+    weight_decay: [0.0001]
+  - model_name: [residual_cnn]
+    channels: [64, 96]
+    blocks: [2, 3]
+    kernel: [5, 7]
+    dropout: [0.20]
+    learning_rate: [0.0003]
+    weight_decay: [0.0001]

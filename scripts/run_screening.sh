@@ -4,12 +4,12 @@ set -euo pipefail
 mkdir -p results/logs
 exec >> results/logs/screening_driver.log 2>&1
 models=(residual_cnn multiscale_cnn cnn_bilstm cnn_transformer domain_aware)
-domains=(bacteria archaea eukaryota)
+groups=(ecoli bsubtilis archaea human mouse arabidopsis)
 
-for domain in "${domains[@]}"; do
+for group in "${groups[@]}"; do
   for model in "${models[@]}"; do
-    log="results/logs/screening_${domain}_${model}.log"
-    echo "[$(date -Is)] ${domain} ${model}" | tee -a "$log"
-    python main.py train --domain "$domain" --model "$model" --epochs 25 2>&1 | tee -a "$log"
+    log="results/logs/screening_${group}_${model}.log"
+    echo "[$(date -Is)] ${group} ${model}" | tee -a "$log"
+    python main.py train --group "$group" --model "$model" --epochs 25 2>&1 | tee -a "$log"
   done
 done

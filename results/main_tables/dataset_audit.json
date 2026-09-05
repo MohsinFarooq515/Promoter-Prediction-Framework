@@ -1,6 +1,6 @@
 [
   {
-    "file": "data/3) finalized/Archaeal/Archaeal_non_promoter.fasta",
+    "file": "data\\3) finalized\\Archaeal\\Archaeal_non_promoter.fasta",
     "domain": "archaea",
     "organism": "Archaea_unspecified",
     "class": "non-promoter",
@@ -25,7 +25,7 @@
     "sha256": "ddfbf91d21a808941cb5369deaf41698e101000179bb830de9a4b605084fabe1"
   },
   {
-    "file": "data/3) finalized/Archaeal/Archaeal_promoter.fasta",
+    "file": "data\\3) finalized\\Archaeal\\Archaeal_promoter.fasta",
     "domain": "archaea",
     "organism": "Archaea_unspecified",
     "class": "promoter",
@@ -50,7 +50,7 @@
     "sha256": "2681a1024ac600745befe406b45709b3ff65fca87e48813a9c8bd0cd3a90d2b4"
   },
   {
-    "file": "data/3) finalized/Eukaryotic Species/Animal/Mouse_non_promoter.fasta",
+    "file": "data\\3) finalized\\Eukaryotic Species\\Animal\\Mouse_non_promoter.fasta",
     "domain": "eukaryota",
     "organism": "Mus musculus",
     "class": "non-promoter",
@@ -75,7 +75,7 @@
     "sha256": "6bb1929f3156b3e735a9f8599ad3a0f0fa18cc02edbfffe39fdbac0099b858b4"
   },
   {
-    "file": "data/3) finalized/Eukaryotic Species/Animal/Mouse_promoter.fasta",
+    "file": "data\\3) finalized\\Eukaryotic Species\\Animal\\Mouse_promoter.fasta",
     "domain": "eukaryota",
     "organism": "Mus musculus",
     "class": "promoter",
@@ -100,7 +100,7 @@
     "sha256": "2e8f652f3ab7bc9269ff44a4eeca53a65b01f052bed1a3d31c4c58cc772d589b"
   },
   {
-    "file": "data/3) finalized/Eukaryotic Species/Human/Human_non_promoter.fasta",
+    "file": "data\\3) finalized\\Eukaryotic Species\\Human\\Human_non_promoter.fasta",
     "domain": "eukaryota",
     "organism": "Homo sapiens",
     "class": "non-promoter",
@@ -125,7 +125,7 @@
     "sha256": "226b08987cb03efa7336a7f5f908f7cbbf80dee075e8916ec1754c5d30feba73"
   },
   {
-    "file": "data/3) finalized/Eukaryotic Species/Human/Human_promoter.fasta",
+    "file": "data\\3) finalized\\Eukaryotic Species\\Human\\Human_promoter.fasta",
     "domain": "eukaryota",
     "organism": "Homo sapiens",
     "class": "promoter",
@@ -150,7 +150,7 @@
     "sha256": "f78f5f5e4315994d570679d54e38834ef9cfc0ce289e47af12a8db5a218cafe4"
   },
   {
-    "file": "data/3) finalized/Eukaryotic Species/Plant/Arabidopsis_non_promoter.fasta",
+    "file": "data\\3) finalized\\Eukaryotic Species\\Plant\\Arabidopsis_non_promoter.fasta",
     "domain": "eukaryota",
     "organism": "Arabidopsis thaliana",
     "class": "non-promoter",
@@ -175,7 +175,7 @@
     "sha256": "fee07b54dcac168987f4b2c764d21e2c5fded2cb87e8a13468cafbc54007bbda"
   },
   {
-    "file": "data/3) finalized/Eukaryotic Species/Plant/Arabidopsis_promoter.fasta",
+    "file": "data\\3) finalized\\Eukaryotic Species\\Plant\\Arabidopsis_promoter.fasta",
     "domain": "eukaryota",
     "organism": "Arabidopsis thaliana",
     "class": "promoter",
@@ -200,57 +200,57 @@
     "sha256": "a8b926a218426e3885b831e21d3f95b411af99afb387f28fc1ddc90d35aaf1fe"
   },
   {
-    "file": "data/3) finalized/Prokaryotic Species/B. Subtilis/Bsub_non_promoter.fasta",
+    "file": "data\\3) finalized\\Prokaryotic Species\\B. Subtilis\\Bsub_non_promoter.fasta",
     "domain": "bacteria",
     "organism": "Bacillus subtilis",
     "class": "non-promoter",
-    "sequence_count": 865,
-    "unique_sequence_count": 865,
-    "unique_header_count": 865,
+    "sequence_count": 766,
+    "unique_sequence_count": 766,
+    "unique_header_count": 766,
     "duplicate_header_count": 0,
     "exact_duplicate_sequence_count": 0,
-    "minimum_length": 81,
-    "maximum_length": 81,
-    "mean_length": 81.0,
-    "median_length": 81,
+    "minimum_length": 80,
+    "maximum_length": 80,
+    "mean_length": 80.0,
+    "median_length": 80.0,
     "length_distribution": {
-      "81": 865
+      "80": 766
     },
     "equal_length": "Yes",
     "invalid_characters": {},
     "sequences_containing_n": 0,
     "empty_sequence_count": 0,
-    "mean_gc": 0.42536216370513097,
-    "gc_std": 0.08288479954161088,
-    "sha256": "3d72731cf4a326e05e1f292dd5e4bfca33b5cb68541f46275a81de783b9ac5ba"
+    "mean_gc": 0.4130711488250653,
+    "gc_std": 0.08149553778802279,
+    "sha256": "1ca13a341f60c8dcf7d7201a0ee34759ea220e465792771bbb98bc467ff734b2"
   },
   {
-    "file": "data/3) finalized/Prokaryotic Species/B. Subtilis/Bsub_promoter.fasta",
+    "file": "data\\3) finalized\\Prokaryotic Species\\B. Subtilis\\Bsub_promoter.fasta",
     "domain": "bacteria",
     "organism": "Bacillus subtilis",
     "class": "promoter",
-    "sequence_count": 368,
-    "unique_sequence_count": 368,
-    "unique_header_count": 346,
-    "duplicate_header_count": 22,
+    "sequence_count": 675,
+    "unique_sequence_count": 675,
+    "unique_header_count": 675,
+    "duplicate_header_count": 0,
     "exact_duplicate_sequence_count": 0,
-    "minimum_length": 81,
-    "maximum_length": 81,
-    "mean_length": 81.0,
-    "median_length": 81.0,
+    "minimum_length": 80,
+    "maximum_length": 80,
+    "mean_length": 80.0,
+    "median_length": 80,
     "length_distribution": {
-      "81": 368
+      "80": 675
     },
     "equal_length": "Yes",
     "invalid_characters": {},
     "sequences_containing_n": 0,
     "empty_sequence_count": 0,
-    "mean_gc": 0.30444847020933974,
-    "gc_std": 0.06254340110163818,
-    "sha256": "1beb4ed21bcffe03dc324dadd9cbbbb251e44ab4f39303666d17d8b49d5dbb6f"
+    "mean_gc": 0.4172222222222222,
+    "gc_std": 0.08186860897683843,
+    "sha256": "b3ae7fcb1c04bd24df42ecf67d05279fc8e8357f1f3621ec2717488b2b83fb6b"
   },
   {
-    "file": "data/3) finalized/Prokaryotic Species/E. coli/Ecoli_non_promoter.fasta",
+    "file": "data\\3) finalized\\Prokaryotic Species\\E. coli\\Ecoli_non_promoter.fasta",
     "domain": "bacteria",
     "organism": "Escherichia coli",
     "class": "non-promoter",
@@ -275,7 +275,7 @@
     "sha256": "45f0e68bdc59e708bca47b03e1776742bbd0b61f48faaadfe64c387d2ae3883b"
   },
   {
-    "file": "data/3) finalized/Prokaryotic Species/E. coli/Ecoli_promoter.fasta",
+    "file": "data\\3) finalized\\Prokaryotic Species\\E. coli\\Ecoli_promoter.fasta",
     "domain": "bacteria",
     "organism": "Escherichia coli",
     "class": "promoter",

@@ -6,6 +6,7 @@ from torch.utils.data import DataLoader, WeightedRandomSampler
 from .data import SequenceDataset
 from .evaluation import metrics, select_threshold
 from .models import MODELS
+from .groups import model_group_for
 
 def seed_all(seed): random.seed(seed); np.random.seed(seed); torch.manual_seed(seed); torch.use_deterministic_algorithms(True,warn_only=True)
 def collate(batch):
@@ -67,7 +68,7 @@ def train(records,model_name,output_dir,config,resume=True):
         ids,y,p=predict(model,subsets[part]); rows=[]
         lookup={r.internal_id:r for r in subsets[part]}
         for i,t,prob in zip(ids,y,p):
-            r=lookup[i]; rows.append({"internal_id":i,"original_header":r.original_header,"source_file":r.source_file,"domain":r.domain,"organism":r.organism,"true_label":t,"predicted_label":int(prob>=threshold),"promoter_probability":prob,"threshold":threshold,"partition":part,"model_name":model_name,"seed":seed,"fold":""})
+            r=lookup[i]; rows.append({"internal_id":i,"original_header":r.original_header,"source_file":r.source_file,"domain":r.domain,"organism":r.organism,"model_group":model_group_for(r.organism),"true_label":t,"predicted_label":int(prob>=threshold),"promoter_probability":prob,"threshold":threshold,"partition":part,"model_name":model_name,"seed":seed,"fold":""})
         with (outdir/f"{part}_predictions.csv").open("w",newline="") as f: w=csv.DictWriter(f,fieldnames=rows[0]); w.writeheader(); w.writerows(rows)
         (outdir/f"{part}_metrics.json").write_text(json.dumps(metrics(y,p,threshold),indent=2))
     (outdir/"run.json").write_text(json.dumps({"duration_seconds":time.time()-began,"parameter_count":sum(p.numel() for p in model.parameters()),"threshold":threshold,"seed":seed,"config_hash":config_hash},indent=2))

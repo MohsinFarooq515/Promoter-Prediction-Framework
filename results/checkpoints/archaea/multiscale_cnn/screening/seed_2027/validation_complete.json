@@ -1,6 +1,6 @@
 {
-  "config_hash": "68251be992d65d1816b039bde31b65dfcb8b0586beffa3eee6a34a2c9e61db21",
-  "epochs_completed": 20,
-  "best_epoch": 11,
-  "best_validation_mcc": 0.8448268644001743
+  "config_hash": "ceafaa0cabfe1affdbc46afe824d2e43e1ea868b2b3000861da7a326be7b089c",
+  "epochs_completed": 18,
+  "best_epoch": 9,
+  "best_validation_mcc": 0.8469816362278507
 }

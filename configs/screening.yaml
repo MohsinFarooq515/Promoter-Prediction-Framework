@@ -15,4 +15,4 @@ patience: 8
 threads: 4
 workers: 0
 domain_loss_weight: 0.1
-balanced_sampler: true
+balanced_sampler: false
